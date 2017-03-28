@@ -1,0 +1,4 @@
+set terminal png
+set output 'grafica.png'
+
+plot "archivos/centro.txt","archivos/pulgar.txt","archivos/indice.txt","archivos/medio.txt","archivos/anular.txt","archivos/pinky.txt"
